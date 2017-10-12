@@ -1,0 +1,5088 @@
+#legendContent {
+	margin-top: 0.4em;
+	margin-left: 1em;
+	display: inline-block;
+}
+
+#legendContent1 {
+	display: inline-block;
+	width: 9em;
+}
+
+#legendContent2 {
+	display: inline-block;
+	width: 3em;
+}
+
+#legendContent3 {
+	display: inline-block;
+	width: 10em;
+	margin-right: 2.2em;
+}
+
+#panUpOrgChart {
+	background-color: rgb(216, 238, 255);
+	float: right;
+	opacity: 0.7;
+	margin-right: 3em;
+	-webkit-border-radius: 6em;
+	-moz-border-radius: 6em;
+	border-radius: 6em;
+	border: 0.15em solid #afafaf;
+}
+
+#panLeftOrgChart {
+	background-color: rgb(216, 238, 255);
+	opacity: 0.7;
+	display: inline-block;
+	margin-right: 3.6em;
+	-webkit-border-radius: 6em;
+	-moz-border-radius: 6em;
+	border-radius: 6em;
+	border: 0.15em solid #afafaf;
+}
+
+#panRightOrgChart {
+	background-color: rgb(216, 238, 255);
+	opacity: 0.7;
+	display: inline-block;
+	-webkit-border-radius: 6em;
+	-moz-border-radius: 6em;
+	border-radius: 6em;
+	border: 0.15em solid #afafaf;
+}
+
+#panDownOrgChart {
+	background-color: rgb(216, 238, 255);
+	float: right;
+	opacity: 0.7;
+	margin-right: 3em;
+	-webkit-border-radius: 6em;
+	-moz-border-radius: 6em;
+	border-radius: 6em;
+	border: 0.15em solid #afafaf;
+}
+
+#zoomOutOrgChart {
+	background-color: rgb(216, 238, 255);
+	float: right;
+	opacity: 0.7;
+	display: inline-block;
+	-webkit-border-radius: 6em;
+	-moz-border-radius: 6em;
+	border-radius: 6em;
+	border: 0.15em solid #afafaf;
+}
+
+#zoomInOrgChart {
+	background-color: rgb(216, 238, 255);
+	float: right;
+	opacity: 0.7;
+	display: inline-block;
+	margin-right: 2em;
+	-webkit-border-radius: 6em;
+	-moz-border-radius: 6em;
+	border-radius: 6em;
+	border: 0.15em solid #afafaf;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+	fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset {
+	border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+caption, th {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+}
+
+.Treant>.node {
+	
+}
+
+.Treant>p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+		"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top: 0.5em;
+	text-align: left;
+}
+
+.node-title {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 2.7em;
+	margin-bottom: 3.9em;
+	color: #000000;
+	font-size: 1.2em;
+	white-space: initial;
+	word-wrap: break-word;
+	text-align: left;
+	display: block;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	margin-top: 0.4em;
+}
+
+.node-dept {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-dept:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Dept: ";
+}
+
+.node-grade {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-grade:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Grade: ";
+}
+
+.node-functn {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-functn:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Functn: ";
+}
+
+.node-business {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-business:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Business: ";
+}
+
+.node-location {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-location:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Location: ";
+}
+
+.node-company {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-company:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Company: ";
+}
+
+.node-phone {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-phone:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Phone: ";
+}
+
+.node-email {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 1em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-email:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Email: ";
+}
+
+.node-age {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-age:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Age: ";
+}
+
+.node-doret {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 1em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-doret:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Date of Retirement: ";
+}
+
+/* CSS for nodes */
+.nodeCollapsible, .nodeSec1WithLink, .nodeSec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 27em;
+	height: 11em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeNoPicCollapsible, .nodeNoPicSec1WithLink, .nodeNoPicSec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 21em;
+	height: 7.5em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeCollapsibleSize2, .nodeSec1WithLinkSize2, .nodeSec2WithLinkSize2 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 27em;
+	height: 13.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeNoPicCollapsibleSize2, .nodeNoPicSec1WithLinkSize2,
+	.nodeNoPicSec2WithLinkSize2 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 21em;
+	height: 9.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeCollapsibleSize3, .nodeSec1WithLinkSize3, .nodeSec2WithLinkSize3 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 27em;
+	height: 15.4em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeNoPicCollapsibleSize3, .nodeNoPicSec1WithLinkSize3,
+	.nodeNoPicSec2WithLinkSize3 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 21em;
+	height: 11.4em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeCollapsibleSize4, .nodeSec1WithLinkSize4, .nodeSec2WithLinkSize4 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 27em;
+	height: 17.6em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeNoPicCollapsibleSize4, .nodeNoPicSec1WithLinkSize4,
+	.nodeNoPicSec2WithLinkSize4 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 21em;
+	height: 13.6em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeCollapsibleSize5, .nodeSec1WithLinkSize5, .nodeSec2WithLinkSize5 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 27em;
+	height: 19.8em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeNoPicCollapsibleSize5, .nodeNoPicSec1WithLinkSize5,
+	.nodeNoPicSec2WithLinkSize5 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 21em;
+	height: 15.8em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeCollapsibleSize6, .nodeSec1WithLinkSize6, .nodeSec2WithLinkSize6 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 27em;
+	height: 22em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeNoPicCollapsibleSize6, .nodeNoPicSec1WithLinkSize6,
+	.nodeNoPicSec2WithLinkSize6 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 21em;
+	height: 18em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeCollapsibleSize7, .nodeSec1WithLinkSize7, .nodeSec2WithLinkSize7 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 27em;
+	height: 23.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeNoPicCollapsibleSize7, .nodeNoPicSec1WithLinkSize7,
+	.nodeNoPicSec2WithLinkSize7 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 21em;
+	height: 19.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeCollapsibleSize8, .nodeSec1WithLinkSize8, .nodeSec2WithLinkSize8 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 27em;
+	height: 25.4em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeNoPicCollapsibleSize8, .nodeNoPicSec1WithLinkSize8,
+	.nodeNoPicSec2WithLinkSize8 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 21em;
+	height: 21.5em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeCollapsibleSize9, .nodeSec1WithLinkSize9, .nodeSec2WithLinkSize9 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 27em;
+	height: 27.6em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeNoPicCollapsibleSize9, .nodeNoPicSec1WithLinkSize9,
+	.nodeNoPicSec2WithLinkSize9 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 21em;
+	height: 23.7em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.nodeSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeSec1WithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeSec1WithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeSec1WithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeSec1WithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeSec1WithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeSec1WithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeSec1WithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeSec1WithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeNoPicSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -19%;
+}
+
+.nodeNoPicSec1WithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -19%;
+}
+
+.nodeNoPicSec1WithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -19%;
+}
+
+.nodeNoPicSec1WithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -19%;
+}
+
+.nodeNoPicSec1WithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -19%;
+}
+
+.nodeNoPicSec1WithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -19%;
+}
+
+.nodeNoPicSec1WithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -19%;
+}
+
+.nodeNoPicSec1WithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -19%;
+}
+
+.nodeNoPicSec1WithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -19%;
+}
+
+.nodeSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeSec2WithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeSec2WithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeSec2WithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeSec2WithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeSec2WithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeSec2WithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeSec2WithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeSec2WithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeNoPicSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeNoPicSec2WithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeNoPicSec2WithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeNoPicSec2WithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeNoPicSec2WithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeNoPicSec2WithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeNoPicSec2WithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeNoPicSec2WithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.nodeNoPicSec2WithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -22%;
+}
+
+.Treant>.node img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeCollapsible img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeSec1WithLink img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeSec2WithLink img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.nodeMatrix, .nodeMatrixCollapsible, .nodeMatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 27em;
+	height: 11em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeNoPicMatrix, .nodeNoPicMatrixCollapsible, .nodeNoPicMatrixWithLink
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 21em;
+	height: 7.5em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeMatrixSize2, .nodeMatrixCollapsibleSize2, .nodeMatrixWithLinkSize2
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 27em;
+	height: 13.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeNoPicMatrixSize2, .nodeNoPicMatrixCollapsibleSize2,
+	.nodeNoPicMatrixWithLinkSize2 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 21em;
+	height: 9.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeMatrixSize3, .nodeMatrixCollapsibleSize3, .nodeMatrixWithLinkSize3
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 27em;
+	height: 15.4em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeNoPicMatrixSize3, .nodeNoPicMatrixCollapsibleSize3,
+	.nodeNoPicMatrixWithLinkSize3 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 21em;
+	height: 11.4em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeMatrixSize4, .nodeMatrixCollapsibleSize4, .nodeMatrixWithLinkSize4
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 27em;
+	height: 17.6em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeNoPicMatrixSize4, .nodeNoPicMatrixCollapsibleSize4,
+	.nodeNoPicMatrixWithLinkSize4 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 21em;
+	height: 13.6em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeMatrixSize5, .nodeMatrixCollapsibleSize5, .nodeMatrixWithLinkSize5
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 27em;
+	height: 19.8em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeNoPicMatrixSize5, .nodeNoPicMatrixCollapsibleSize5,
+	.nodeNoPicMatrixWithLinkSize5 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 21em;
+	height: 15.8em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeMatrixSize6, .nodeMatrixCollapsibleSize6, .nodeMatrixWithLinkSize6
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 27em;
+	height: 22em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeNoPicMatrixSize6, .nodeNoPicMatrixCollapsibleSize6,
+	.nodeNoPicMatrixWithLinkSize6 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 21em;
+	height: 18em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeMatrixSize7, .nodeMatrixCollapsibleSize7, .nodeMatrixWithLinkSize7
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 27em;
+	height: 23.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeNoPicMatrixSize7, .nodeNoPicMatrixCollapsibleSize7,
+	.nodeNoPicMatrixWithLinkSize7 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 21em;
+	height: 19.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeMatrixSize8, .nodeMatrixCollapsibleSize8, .nodeMatrixWithLinkSize8
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 27em;
+	height: 25.4em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeNoPicMatrixSize8, .nodeNoPicMatrixCollapsibleSize8,
+	.nodeNoPicMatrixWithLinkSize8 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 21em;
+	height: 21.5em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeMatrixSize9, .nodeMatrixCollapsibleSize9, .nodeMatrixWithLinkSize9
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 27em;
+	height: 27.6em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeNoPicMatrixSize9, .nodeNoPicMatrixCollapsibleSize9,
+	.nodeNoPicMatrixWithLinkSize9 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 21em;
+	height: 23.7em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeMatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -150%;
+	left: -63%;
+}
+
+.nodeMatrixWithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeMatrixWithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeMatrixWithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeMatrixWithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeMatrixWithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeMatrixWithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeMatrixWithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -100%;
+	left: -63%;
+}
+
+.nodeMatrixWithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -100%;
+	left: -63%;
+}
+
+.nodeNoPicMatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -184%;
+	left: -94%;
+}
+
+.nodeNoPicMatrixWithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -153%;
+	left: -94%;
+}
+
+.nodeNoPicMatrixWithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -133%;
+	left: -94%;
+}
+
+.nodeNoPicMatrixWithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -120%;
+	left: -94%;
+}
+
+.nodeNoPicMatrixWithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -103%;
+	left: -94%;
+}
+
+.nodeNoPicMatrixWithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -91%;
+	left: -94%;
+}
+
+.nodeNoPicMatrixWithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -98%;
+	left: -94%;
+}
+
+.nodeNoPicMatrixWithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -93%;
+	left: -94%;
+}
+
+.nodeNoPicMatrixWithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -102%;
+	left: -90%;
+}
+
+.Treant>.nodeMatrix img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeMatrixCollapsible img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeMatrixWithLink img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.nodeVacant, .nodeVacantCollapsible, .nodeVacantWithLink,
+	.nodeVacantSec1WithLink, .nodeVacantSec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 27em;
+	height: 11em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeNoPicVacant, .nodeNoPicVacantCollapsible, .nodeNoPicVacantWithLink,
+	.nodeNoPicVacantSec1WithLink, .nodeNoPicVacantSec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 21em;
+	height: 7.5em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeVacantSize2, .nodeVacantCollapsibleSize2, .nodeVacantWithLinkSize2,
+	.nodeVacantSec1WithLinkSize2, .nodeVacantSec2WithLinkSize2 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 27em;
+	height: 13.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeNoPicVacantSize2, .nodeNoPicVacantCollapsibleSize2,
+	.nodeNoPicVacantWithLinkSize2, .nodeNoPicVacantSec1WithLinkSize2,
+	.nodeNoPicVacantSec2WithLinkSize2 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 21em;
+	height: 9.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeVacantSize3, .nodeVacantCollapsibleSize3, .nodeVacantWithLinkSize3,
+	.nodeVacantSec1WithLinkSize3, .nodeVacantSec2WithLinkSize3 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 27em;
+	height: 15.4em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeNoPicVacantSize3, .nodeNoPicVacantCollapsibleSize3,
+	.nodeNoPicVacantWithLinkSize3, .nodeNoPicVacantSec1WithLinkSize3,
+	.nodeNoPicVacantSec2WithLinkSize3 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 21em;
+	height: 11.4em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeVacantSize4, .nodeVacantCollapsibleSize4, .nodeVacantWithLinkSize4,
+	.nodeVacantSec1WithLinkSize4, .nodeVacantSec2WithLinkSize4 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 27em;
+	height: 17.6em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeNoPicVacantSize4, .nodeNoPicVacantCollapsibleSize4,
+	.nodeNoPicVacantWithLinkSize4, .nodeNoPicVacantSec1WithLinkSize4,
+	.nodeNoPicVacantSec2WithLinkSize4 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 21em;
+	height: 13.6em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeVacantSize5, .nodeVacantCollapsibleSize5, .nodeVacantWithLinkSize5,
+	.nodeVacantSec1WithLinkSize5, .nodeVacantSec2WithLinkSize5 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 27em;
+	height: 19.8em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeNoPicVacantSize5, .nodeNoPicVacantCollapsibleSize5,
+	.nodeNoPicVacantWithLinkSize5, .nodeNoPicVacantSec1WithLinkSize5,
+	.nodeNoPicVacantSec2WithLinkSize5 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 21em;
+	height: 15.8em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeVacantSize6, .nodeVacantCollapsibleSize6, .nodeVacantWithLinkSize6,
+	.nodeVacantSec1WithLinkSize6, .nodeVacantSec2WithLinkSize6 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 27em;
+	height: 22em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeNoPicVacantSize6, .nodeNoPicVacantCollapsibleSize6,
+	.nodeNoPicVacantWithLinkSize6, .nodeNoPicVacantSec1WithLinkSize6,
+	.nodeNoPicVacantSec2WithLinkSize6 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 21em;
+	height: 18em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeVacantSize7, .nodeVacantCollapsibleSize7, .nodeVacantWithLinkSize7,
+	.nodeVacantSec1WithLinkSize7, .nodeVacantSec2WithLinkSize7 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 27em;
+	height: 23.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeNoPicVacantSize7, .nodeNoPicVacantCollapsibleSize7,
+	.nodeNoPicVacantWithLinkSize7, .nodeNoPicVacantSec1WithLinkSize7,
+	.nodeNoPicVacantSec2WithLinkSize7 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 21em;
+	height: 19.2em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeVacantSize8, .nodeVacantCollapsibleSize8, .nodeVacantWithLinkSize8,
+	.nodeVacantSec1WithLinkSize8, .nodeVacantSec2WithLinkSize8 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 27em;
+	height: 25.4em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeNoPicVacantSize8, .nodeNoPicVacantCollapsibleSize8,
+	.nodeNoPicVacantWithLinkSize8, .nodeNoPicVacantSec1WithLinkSize8,
+	.nodeNoPicVacantSec2WithLinkSize8 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 21em;
+	height: 21.5em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeVacantSize9, .nodeVacantCollapsibleSize9, .nodeVacantWithLinkSize9,
+	.nodeVacantSec1WithLinkSize9, .nodeVacantSec2WithLinkSize9 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 27em;
+	height: 27.6em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeNoPicVacantSize9, .nodeNoPicVacantCollapsibleSize9,
+	.nodeNoPicVacantWithLinkSize9, .nodeNoPicVacantSec1WithLinkSize9,
+	.nodeNoPicVacantSec2WithLinkSize9 {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 21em;
+	height: 23.7em;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeVacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -150%;
+	left: -63%;
+}
+
+.nodeVacantWithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeVacantWithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeVacantWithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeVacantWithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeVacantWithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeVacantWithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.nodeVacantWithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -100%;
+	left: -63%;
+}
+
+.nodeVacantWithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -100%;
+	left: -63%;
+}
+
+.nodeNoPicVacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -184%;
+	left: -94%;
+}
+
+.nodeNoPicVacantWithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -153%;
+	left: -94%;
+}
+
+.nodeNoPicVacantWithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -133%;
+	left: -94%;
+}
+
+.nodeNoPicVacantWithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -120%;
+	left: -94%;
+}
+
+.nodeNoPicVacantWithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -103%;
+	left: -94%;
+}
+
+.nodeNoPicVacantWithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_smaller.png");
+	z-index: -2;
+	bottom: -91%;
+	left: -94%;
+}
+
+.nodeNoPicVacantWithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -98%;
+	left: -94%;
+}
+
+.nodeNoPicVacantWithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -93%;
+	left: -94%;
+}
+
+.nodeNoPicVacantWithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -102%;
+	left: -94%;
+}
+
+.nodeVacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeVacantSec1WithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeVacantSec1WithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeVacantSec1WithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeVacantSec1WithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeVacantSec1WithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeVacantSec1WithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeVacantSec1WithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeVacantSec1WithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeNoPicVacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeNoPicVacantSec1WithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeNoPicVacantSec1WithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeNoPicVacantSec1WithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeNoPicVacantSec1WithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeNoPicVacantSec1WithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeNoPicVacantSec1WithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeNoPicVacantSec1WithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeNoPicVacantSec1WithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeVacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeVacantSec2WithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeVacantSec2WithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeVacantSec2WithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeVacantSec2WithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeVacantSec2WithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeVacantSec2WithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeVacantSec2WithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeVacantSec2WithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeNoPicVacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeNoPicVacantSec2WithLinkSize2:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeNoPicVacantSec2WithLinkSize3:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeNoPicVacantSec2WithLinkSize4:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeNoPicVacantSec2WithLinkSize5:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeNoPicVacantSec2WithLinkSize6:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeNoPicVacantSec2WithLinkSize7:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeNoPicVacantSec2WithLinkSize8:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeNoPicVacantSec2WithLinkSize9:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.Treant>.nodeVacant img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeVacantCollapsible img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeVacantWithLink img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+/* ----------- Printable CSS for nodes -------------------- */
+.nodePrintable, .nodePrintableCollapsible, .nodePrintableSec1WithLink,
+	.nodePrintableSec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 25em;
+	width: 28em;
+}
+
+.nodePrintableSize2, .nodePrintableSize2Collapsible,
+	.nodePrintableSize2Sec1WithLink, .nodePrintableSize2Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 31em;
+	width: 28em;
+}
+
+.nodePrintableSize3, .nodePrintableSize3Collapsible,
+	.nodePrintableSize3Sec1WithLink, .nodePrintableSize3Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 38em;
+	width: 28em;
+}
+
+.nodePrintableSize4, .nodePrintableSize4Collapsible,
+	.nodePrintableSize4Sec1WithLink, .nodePrintableSize4Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 46em;
+	width: 28em;
+}
+
+.nodePrintableSize5, .nodePrintableSize5Collapsible,
+	.nodePrintableSize5Sec1WithLink, .nodePrintableSize5Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 52em;
+	width: 28em;
+}
+
+.nodePrintableSize6, .nodePrintableSize6Collapsible,
+	.nodePrintableSize6Sec1WithLink, .nodePrintableSize6Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 60em;
+	width: 28em;
+}
+
+.nodePrintableSize7, .nodePrintableSize7Collapsible,
+	.nodePrintableSize7Sec1WithLink, .nodePrintableSize7Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 72em;
+	width: 28em;
+}
+
+.nodePrintableSize8, .nodePrintableSize8Collapsible,
+	.nodePrintableSize8Sec1WithLink, .nodePrintableSize8Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 76em;
+	width: 28em;
+}
+
+.nodePrintableSize9, .nodePrintableSize9Collapsible,
+	.nodePrintableSize9Sec1WithLink, .nodePrintableSize9Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 88em;
+	width: 28em;
+}
+
+.nodeWithPicPrintable, .nodeWithPicPrintableCollapsible,
+	.nodeWithPicPrintableSec1WithLink, .nodeWithPicPrintableSec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 36em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableSize2, .nodeWithPicPrintableSize2Collapsible,
+	.nodeWithPicPrintableSize2Sec1WithLink,
+	.nodeWithPicPrintableSize2Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 43em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableSize3, .nodeWithPicPrintableSize3Collapsible,
+	.nodeWithPicPrintableSize3Sec1WithLink,
+	.nodeWithPicPrintableSize3Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 49em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableSize4, .nodeWithPicPrintableSize4Collapsible,
+	.nodeWithPicPrintableSize4Sec1WithLink,
+	.nodeWithPicPrintableSize4Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 57em;
+	width: 28em;
+}
+
+.nodePrintableSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodePrintableSize2Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodePrintableSize3Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodePrintableSize4Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodePrintableSize5Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodePrintableSize6Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodePrintableSize7Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodePrintableSize8Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodePrintableSize9Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodeWithPicPrintableSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodeWithPicPrintableSize2Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodeWithPicPrintableSize3Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodeWithPicPrintableSize4Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodePrintableSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize2Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize3Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize4Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize5Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize6Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize7Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize8Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize9Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeWithPicPrintableSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeWithPicPrintableSize2Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeWithPicPrintableSize3Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeWithPicPrintableSize4Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableVacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodePrintableSize2VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodePrintableSize3VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodePrintableSize4VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodePrintableSize5VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodePrintableSize6VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodePrintableSize7VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodePrintableSize8VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodePrintableSize9VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -14%;
+}
+
+.nodeWithPicPrintableVacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodeWithPicPrintableSize2VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodeWithPicPrintableSize3VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodeWithPicPrintableSize4VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -10%;
+}
+
+.nodePrintableVacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize2VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize3VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize4VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize5VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize6VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize7VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize8VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintableSize9VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeWithPicPrintableVacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeWithPicPrintableSize2VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeWithPicPrintableSize3VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodeWithPicPrintableSize4VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -14%;
+}
+
+.nodePrintable .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 9.1pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableCollapsible .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 9.1pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintable .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8.2pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintable .node-dept, .nodePrintable .node-grade, .nodePrintable .node-functn,
+	.nodePrintable .node-business, .nodePrintable .node-location,
+	.nodePrintable .node-company, .nodePrintable .node-phone,
+	.nodePrintable .node-email, .nodePrintable .node-age, .nodePrintable .node-doret
+	{
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.2pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableCollapsible .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8.2pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableCollapsible .node-dept, .nodePrintableCollapsible .node-grade,
+	.nodePrintableCollapsible .node-functn, .nodePrintableCollapsible .node-business,
+	.nodePrintableCollapsible .node-location, .nodePrintableCollapsible .node-company,
+	.nodePrintableCollapsible .node-phone, .nodePrintableCollapsible .node-email,
+	.nodePrintableCollapsible .node-age, .nodePrintableCollapsible .node-doret
+	{
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.2pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.Treant>.nodeWithPicPrintable img {
+	max-width: 13em;
+	height: 11em;
+	float: none;
+}
+
+.Treant>.nodeWithPicPrintableCollapsible img {
+	max-width: 13em;
+	height: 11em;
+	float: none;
+}
+
+.nodePrintableMatrix, .nodePrintableMatrixCollapsible,
+	.nodePrintableMatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 25em;
+	width: 28em;
+}
+
+.nodePrintableSize2Matrix, .nodePrintableSize2MatrixCollapsible,
+	.nodePrintableSize2MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 31em;
+	width: 28em;
+}
+
+.nodePrintableSize3Matrix, .nodePrintableSize3MatrixCollapsible,
+	.nodePrintableSize3MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 38em;
+	width: 28em;
+}
+
+.nodePrintableSize4Matrix, .nodePrintableSize4MatrixCollapsible,
+	.nodePrintableSize4MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 46em;
+	width: 28em;
+}
+
+.nodePrintableSize5Matrix, .nodePrintableSize5MatrixCollapsible,
+	.nodePrintableSize5MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 52em;
+	width: 28em;
+}
+
+.nodePrintableSize6Matrix, .nodePrintableSize6MatrixCollapsible,
+	.nodePrintableSize6MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 60em;
+	width: 28em;
+}
+
+.nodePrintableSize7Matrix, .nodePrintableSize7MatrixCollapsible,
+	.nodePrintableSize7MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 72em;
+	width: 28em;
+}
+
+.nodePrintableSize8Matrix, .nodePrintableSize8MatrixCollapsible,
+	.nodePrintableSize8MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 76em;
+	width: 28em;
+}
+
+.nodePrintableSize9Matrix, .nodePrintableSize9MatrixCollapsible,
+	.nodePrintableSize9MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 88em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableMatrix, .nodeWithPicPrintableMatrixCollapsible,
+	.nodeWithPicPrintableMatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 36em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableSize2Matrix,
+	.nodeWithPicPrintableSize2MatrixCollapsible,
+	.nodeWithPicPrintableSize2MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 43em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableSize3Matrix,
+	.nodeWithPicPrintableSize3MatrixCollapsible,
+	.nodeWithPicPrintableSize3MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 49em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableSize4Matrix,
+	.nodeWithPicPrintableSize4MatrixCollapsible,
+	.nodeWithPicPrintableSize4MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 57em;
+	width: 28em;
+}
+
+.nodePrintable .node-name, .nodeWithPicPrintable .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 9.1pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodeWithPicPrintable .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8.2pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodeWithPicPrintable .node-dept, .nodeWithPicPrintable .node-grade,
+	.nodeWithPicPrintable .node-functn, .nodeWithPicPrintable .node-business,
+	.nodeWithPicPrintable .node-location, .nodeWithPicPrintable .node-company,
+	.nodeWithPicPrintable .node-phone, .nodeWithPicPrintable .node-email,
+	.nodeWithPicPrintable .node-age, .nodeWithPicPrintable .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.2pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableMatrix .node-title, .nodeWithPicPrintableMatrix .node-title
+	{
+	color: #000000;
+	font-weight: normal;
+	font-size: 8.2pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableMatrix .node-name, .nodeWithPicPrintableMatrix .node-name
+	{
+	color: #000000;
+	font-weight: bold;
+	font-size: 9.1pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableMatrixCollapsible .node-name,
+	.nodeWithPicPrintableMatrixCollapsible .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 9.1pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableMatrixWithLink .node-name,
+	.nodeWithPicPrintableMatrixWithLink .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 9.1pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableMatrix .node-dept, .nodePrintableMatrix .node-grade,
+	.nodePrintableMatrix .node-functn, .nodePrintableMatrix .node-business,
+	.nodePrintableMatrix .node-location, .nodePrintableMatrix .node-company,
+	.nodePrintableMatrix .node-phone, .nodePrintableMatrix .node-email,
+	.nodeWithPicPrintableMatrix .node-dept, .nodeWithPicPrintableMatrix .node-functn,
+	.nodeWithPicPrintableMatrix .node-business, .nodeWithPicPrintableMatrix .node-location,
+	.nodeWithPicPrintableMatrix .node-company, .nodeWithPicPrintableMatrix .node-phone,
+	.nodeWithPicPrintableMatrix .node-email, .nodeWithPicPrintableMatrix .node-age,
+	.nodeWithPicPrintableMatrix .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.2pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableMatrixCollapsible .node-title,
+	.nodeWithPicPrintableMatrixCollapsible .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8.2pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableMatrixCollapsible .node-dept,
+	.nodePrintableMatrixCollapsible .node-grade,
+	.nodePrintableMatrixCollapsible .node-functn,
+	.nodePrintableMatrixCollapsible .node-business,
+	.nodePrintableMatrixCollapsible .node-location,
+	.nodePrintableMatrixCollapsible .node-company,
+	.nodePrintableMatrixCollapsible .node-phone,
+	.nodePrintableMatrixCollapsible .node-email,
+	.nodeWithPicPrintableMatrixCollapsible .node-dept,
+	.nodeWithPicPrintableMatrixCollapsible .node-functn,
+	.nodeWithPicPrintableMatrixCollapsible .node-business,
+	.nodeWithPicPrintableMatrixCollapsible .node-location,
+	.nodeWithPicPrintableMatrixCollapsible .node-company,
+	.nodeWithPicPrintableMatrixCollapsible .node-phone,
+	.nodeWithPicPrintableMatrixCollapsible .node-email,
+	.nodeWithPicPrintableMatrixCollapsible .node-age,
+	.nodeWithPicPrintableMatrixCollapsible .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.2pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableMatrixWithLink .node-title,
+	.nodeWithPicPrintableMatrixWithLink .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8.2pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableMatrixWithLink .node-dept, .nodePrintableMatrixWithLink .node-grade,
+	.nodePrintableMatrixWithLink .node-functn, .nodePrintableMatrixWithLink .node-business,
+	.nodePrintableMatrixWithLink .node-location,
+	.nodePrintableMatrixWithLink .node-company,
+	.nodePrintableMatrixWithLink .node-phone, .nodePrintableMatrixWithLink .node-email,
+	.nodeWithPicPrintableMatrixWithLink .node-dept,
+	.nodeWithPicPrintableMatrixWithLink .node-functn,
+	.nodeWithPicPrintableMatrixWithLink .node-business,
+	.nodeWithPicPrintableMatrixWithLink .node-location,
+	.nodeWithPicPrintableMatrixWithLink .node-company,
+	.nodeWithPicPrintableMatrixWithLink .node-phone,
+	.nodeWithPicPrintableMatrixWithLink .node-email,
+	.nodeWithPicPrintableMatrixWithLink .node-age,
+	.nodeWithPicPrintableMatrixWithLink .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.2pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableMatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -95%;
+	left: -95%;
+}
+
+.nodePrintableSize2MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -87%;
+	left: -95%;
+}
+
+.nodePrintableSize3MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -76%;
+	left: -95%;
+}
+
+.nodePrintableSize4MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -75%;
+	left: -95%;
+}
+
+.nodePrintableSize5MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -66%;
+	left: -95%;
+}
+
+.nodePrintableSize6MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -57%;
+	left: -95%;
+}
+
+.nodePrintableSize7MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -47%;
+	left: -95%;
+}
+
+.nodePrintableSize8MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -45%;
+	left: -95%;
+}
+
+.nodePrintableSize9MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -39%;
+	left: -95%;
+}
+
+.nodeWithPicPrintableMatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -80%;
+	left: -95%;
+}
+
+.nodeWithPicPrintableSize2MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -80%;
+	left: -95%;
+}
+
+.nodeWithPicPrintableSize3MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -70%;
+	left: -95%;
+}
+
+.nodeWithPicPrintableSize4MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -60%;
+	left: -95%;
+}
+
+.Treant>.nodeWithPicPrintableMatrix img {
+	max-width: 13em;
+	height: 11em;
+	float: none;
+}
+
+.Treant>.nodeWithPicPrintableMatrixCollapsible img {
+	max-width: 13em;
+	height: 11em;
+	float: none;
+}
+
+.Treant>.nodeWithPicPrintableMatrixWithLink img {
+	max-width: 13em;
+	height: 11em;
+	float: none;
+}
+
+.nodePrintableVacant, .nodePrintableVacantCollapsible,
+	.nodePrintableVacantWithLink, .nodePrintableSecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 25em;
+	width: 28em;
+}
+
+.nodePrintableSize2Vacant, .nodePrintableSize2VacantCollapsible,
+	.nodePrintableSize2VacantWithLink, .nodePrintableSize2SecVacantWithLink
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 31em;
+	width: 28em;
+}
+
+.nodePrintableSize3Vacant, .nodePrintableSize3VacantCollapsible,
+	.nodePrintableSize3VacantWithLink, .nodePrintableSize3SecVacantWithLink
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 38em;
+	width: 28em;
+}
+
+.nodePrintableSize4Vacant, .nodePrintableSize4VacantCollapsible,
+	.nodePrintableSize4VacantWithLink, .nodePrintableSize4SecVacantWithLink
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 46em;
+	width: 28em;
+}
+
+.nodePrintableSize5Vacant, .nodePrintableSize5VacantCollapsible,
+	.nodePrintableSize5VacantWithLink, .nodePrintableSize5SecVacantWithLink
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 52em;
+	width: 28em;
+}
+
+.nodePrintableSize6Vacant, .nodePrintableSize6VacantCollapsible,
+	.nodePrintableSize6VacantWithLink, .nodePrintableSize6SecVacantWithLink
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 60em;
+	width: 28em;
+}
+
+.nodePrintableSize7Vacant, .nodePrintableSize7VacantCollapsible,
+	.nodePrintableSize7VacantWithLink, .nodePrintableSize7SecVacantWithLink
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 72em;
+	width: 28em;
+}
+
+.nodePrintableSize8Vacant, .nodePrintableSize8VacantCollapsible,
+	.nodePrintableSize8VacantWithLink, .nodePrintableSize8SecVacantWithLink
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 76em;
+	width: 28em;
+}
+
+.nodePrintableSize9Vacant, .nodePrintableSize9VacantCollapsible,
+	.nodePrintableSize9VacantWithLink, .nodePrintableSize9SecVacantWithLink
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 88em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableVacant, .nodeWithPicPrintableVacantCollapsible,
+	.nodeWithPicPrintableVacantWithLink,
+	.nodeWithPicPrintableSecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 36em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableSize2Vacant,
+	.nodeWithPicPrintableSize2VacantCollapsible,
+	.nodeWithPicPrintableSize2VacantWithLink,
+	.nodeWithPicPrintableSize2SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 43em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableSize3Vacant,
+	.nodeWithPicPrintableSize3VacantCollapsible,
+	.nodeWithPicPrintableSize3VacantWithLink,
+	.nodeWithPicPrintableSize3SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 49em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableSize4Vacant,
+	.nodeWithPicPrintableSize4VacantCollapsible,
+	.nodeWithPicPrintableSize4VacantWithLink,
+	.nodeWithPicPrintableSize4SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 57em;
+	width: 28em;
+}
+
+.nodePrintableVacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -95%;
+	left: -95%;
+}
+
+.nodePrintableSize2VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -87%;
+	left: -95%;
+}
+
+.nodePrintableSize3VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -76%;
+	left: -95%;
+}
+
+.nodePrintableSize4VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -75%;
+	left: -95%;
+}
+
+.nodePrintableSize5VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -66%;
+	left: -95%;
+}
+
+.nodePrintableSize6VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -57%;
+	left: -95%;
+}
+
+.nodePrintableSize7VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -47%;
+	left: -95%;
+}
+
+.nodePrintableSize8VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -45%;
+	left: -95%;
+}
+
+.nodePrintableSize9VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -39%;
+	left: -95%;
+}
+
+.nodeWithPicPrintableVacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -80%;
+	left: -95%;
+}
+
+.nodeWithPicPrintableSize2VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -80%;
+	left: -95%;
+}
+
+.nodeWithPicPrintableSize3VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -70%;
+	left: -95%;
+}
+
+.nodeWithPicPrintableSize4VacantWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -60%;
+	left: -95%;
+}
+
+.nodePrintableVacant .node-name, .nodeWithPicPrintableVacant .node-name
+	{
+	color: #000000;
+	font-weight: bold;
+	font-size: 9.1pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableVacantCollapsible .node-name,
+	.nodeWithPicPrintableVacantCollapsible .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 9.1pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableVacantWithLink .node-name,
+	.nodeWithPicPrintableVacantWithLink .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 9.1pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableVacant .node-title, .nodeWithPicPrintableVacant .node-title
+	{
+	color: #000000;
+	font-weight: normal;
+	font-size: 8.2pt;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableVacant .node-dept, .nodePrintableVacant .node-grade,
+	.nodePrintableVacant .node-functn, .nodePrintableVacant .node-business,
+	.nodePrintableVacant .node-location, .nodePrintableVacant .node-company,
+	.nodePrintableVacant .node-phone, .nodePrintableVacant .node-email,
+	.nodeWithPicPrintableVacant .node-dept, .nodeWithPicPrintableVacant .node-functn,
+	.nodeWithPicPrintableVacant .node-business, .nodeWithPicPrintableVacant .node-location,
+	.nodeWithPicPrintableVacant .node-company, .nodeWithPicPrintableVacant .node-phone,
+	.nodeWithPicPrintableVacant .node-email, .nodeWithPicPrintableVacant .node-age,
+	.nodeWithPicPrintableVacant .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.2pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableVacantCollapsible .node-title,
+	.nodeWithPicPrintableVacantCollapsible .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8.2pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableVacantCollapsible .node-dept,
+	.nodePrintableVacantCollapsible .node-grade,
+	.nodePrintableVacantCollapsible .node-functn,
+	.nodePrintableVacantCollapsible .node-business,
+	.nodePrintableVacantCollapsible .node-location,
+	.nodePrintableVacantCollapsible .node-company,
+	.nodePrintableVacantCollapsible .node-phone,
+	.nodePrintableVacantCollapsible .node-email,
+	.nodeWithPicPrintableVacantCollapsible .node-dept,
+	.nodeWithPicPrintableVacantCollapsible .node-functn,
+	.nodeWithPicPrintableVacantCollapsible .node-business,
+	.nodeWithPicPrintableVacantCollapsible .node-location,
+	.nodeWithPicPrintableVacantCollapsible .node-company,
+	.nodeWithPicPrintableVacantCollapsible .node-phone,
+	.nodeWithPicPrintableVacantCollapsible .node-email,
+	.nodeWithPicPrintableVacantCollapsible .node-age,
+	.nodeWithPicPrintableVacantCollapsible .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.2pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableVacantWithLink .node-title,
+	.nodeWithPicPrintableVacantWithLink .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8.2pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableVacantWithLink .node-dept, .nodePrintableVacantWithLink .node-grade,
+	.nodePrintableVacantWithLink .node-functn, .nodePrintableVacantWithLink .node-business,
+	.nodePrintableVacantWithLink .node-location,
+	.nodePrintableVacantWithLink .node-company,
+	.nodePrintableVacantWithLink .node-phone, .nodePrintableVacantWithLink .node-email,
+	.nodeWithPicPrintableVacantWithLink .node-dept,
+	.nodeWithPicPrintableVacantWithLink .node-functn,
+	.nodeWithPicPrintableVacantWithLink .node-business,
+	.nodeWithPicPrintableVacantWithLink .node-location,
+	.nodeWithPicPrintableVacantWithLink .node-company,
+	.nodeWithPicPrintableVacantWithLink .node-phone,
+	.nodeWithPicPrintableVacantWithLink .node-email,
+	.nodeWithPicPrintableVacantWithLink .node-age,
+	.nodeWithPicPrintableVacantWithLink .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.2pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.Treant>.nodeWithPicPrintableVacant img {
+	max-width: 13em;
+	height: 11em;
+	float: none;
+}
+
+.Treant>.nodeWithPicPrintableVacantCollapsible img {
+	max-width: 13em;
+	height: 11em;
+	float: none;
+}
+
+.Treant>.nodeWithPicPrintableVacantWithLink img {
+	max-width: 13em;
+	height: 11em;
+	float: none;
+}
+/* ----------------------- Printable Large----------------------------- */
+.nodePrintableLarge, .nodePrintableLargeCollapsible,
+	.nodePrintableLargeSec1WithLink, .nodePrintableLargeSec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 9em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize2, .nodePrintableLargeSize2Collapsible,
+	.nodePrintableLargeSize2Sec1WithLink,
+	.nodePrintableLargeSize2Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 12em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize3, .nodePrintableLargeSize3Collapsible,
+	.nodePrintableLargeSize3Sec1WithLink,
+	.nodePrintableLargeSize3Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 15em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize4, .nodePrintableLargeSize4Collapsible,
+	.nodePrintableLargeSize4Sec1WithLink,
+	.nodePrintableLargeSize4Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 17em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize5, .nodePrintableLargeSize5Collapsible,
+	.nodePrintableLargeSize5Sec1WithLink,
+	.nodePrintableLargeSize5Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 19em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize6, .nodePrintableLargeSize6Collapsible,
+	.nodePrintableLargeSize6Sec1WithLink,
+	.nodePrintableLargeSize6Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 21em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize7, .nodePrintableLargeSize7Collapsible,
+	.nodePrintableLargeSize7Sec1WithLink,
+	.nodePrintableLargeSize7Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 24em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize8, .nodePrintableLargeSize8Collapsible,
+	.nodePrintableLargeSize8Sec1WithLink,
+	.nodePrintableLargeSize8Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 28em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize9, .nodePrintableLargeSize9Collapsible,
+	.nodePrintableLargeSize9Sec1WithLink,
+	.nodePrintableLargeSize9Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 32em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLarge, .nodeWithPicPrintableLargeCollapsible,
+	.nodeWithPicPrintableLargeSec1WithLink,
+	.nodeWithPicPrintableLargeSec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 20em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeSize2,
+	.nodeWithPicPrintableLargeSize2Collapsible,
+	.nodeWithPicPrintableLargeSize2Sec1WithLink,
+	.nodeWithPicPrintableLargeSize2Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 23em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeSize3,
+	.nodeWithPicPrintableLargeSize3Collapsible,
+	.nodeWithPicPrintableLargeSize3Sec1WithLink,
+	.nodeWithPicPrintableLargeSize3Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 26em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeSize4,
+	.nodeWithPicPrintableLargeSize4Collapsible,
+	.nodeWithPicPrintableLargeSize4Sec1WithLink,
+	.nodeWithPicPrintableLargeSize4Sec2WithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 29em;
+	width: 28em;
+}
+
+.nodePrintableLarge .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 8.8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableLargeCollapsible .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 8.8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableLarge .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableLarge .node-dept, .nodePrintableLarge .node-grade,
+	.nodePrintableLarge .node-functn, .nodePrintableLarge .node-business,
+	.nodePrintableLarge .node-location, .nodePrintableLarge .node-company,
+	.nodePrintableLarge .node-phone, .nodePrintableLarge .node-email,
+	.nodePrintableLarge .node-age, .nodePrintableLarge .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.4pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableLargeCollapsible .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableLargeCollapsible .node-dept,
+	.nodePrintableLargeCollapsible .node-grade,
+	.nodePrintableLargeCollapsible .node-functn,
+	.nodePrintableLargeCollapsible .node-business,
+	.nodePrintableLargeCollapsible .node-location,
+	.nodePrintableLargeCollapsible .node-company,
+	.nodePrintableLargeCollapsible .node-phone,
+	.nodePrintableLargeCollapsible .node-email,
+	.nodePrintableLargeCollapsible .node-age,
+	.nodePrintableLargeCollapsible .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.4pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.Treant>.nodeWithPicPrintableLarge img {
+	max-width: 13em;
+	height: 11em;
+	float: none;
+}
+
+.Treant>.nodeWithPicPrintableLargeCollapsible img {
+	max-width: 13em;
+	height: 11em;
+	float: none;
+}
+
+.nodePrintableLargeMatrix, .nodePrintableLargeMatrixCollapsible,
+	.nodePrintableLargeMatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 9em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize2Matrix,
+	.nodePrintableLargeSize2MatrixCollapsible,
+	.nodePrintableLargeSize2MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 12em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize3Matrix,
+	.nodePrintableLargeSize3MatrixCollapsible,
+	.nodePrintableLargeSize3MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 15em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize4Matrix,
+	.nodePrintableLargeSize4MatrixCollapsible,
+	.nodePrintableLargeSize4MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 17em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize5Matrix,
+	.nodePrintableLargeSize5MatrixCollapsible,
+	.nodePrintableLargeSize5MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 19em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize6Matrix,
+	.nodePrintableLargeSize6MatrixCollapsible,
+	.nodePrintableLargeSize6MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 21em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize7Matrix,
+	.nodePrintableLargeSize7MatrixCollapsible,
+	.nodePrintableLargeSize7MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 24em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize8Matrix,
+	.nodePrintableLargeSize8MatrixCollapsible,
+	.nodePrintableLargeSize8MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 28em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize9Matrix,
+	.nodePrintableLargeSize9MatrixCollapsible,
+	.nodePrintableLargeSize9MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 32em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeMatrix,
+	.nodeWithPicPrintableLargeMatrixCollapsible,
+	.nodeWithPicPrintableLargeMatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 20em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeSize2Matrix,
+	.nodeWithPicPrintableLargeSize2MatrixCollapsible,
+	.nodeWithPicPrintableLargeSize2MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 23em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeSize3Matrix,
+	.nodeWithPicPrintableLargeSize3MatrixCollapsible,
+	.nodeWithPicPrintableLargeSize3MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 26em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeSize4Matrix,
+	.nodeWithPicPrintableLargeSize4MatrixCollapsible,
+	.nodeWithPicPrintableLargeSize4MatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 29em;
+	width: 28em;
+}
+
+.nodePrintableLarge .node-name, .nodePrintableLargeMatrix .node-name,
+	.nodePrintableLargeMatrixCollapsible .node-name,
+	.nodePrintableLargeMatrixWithLink .node-name,
+	.nodeWithPicPrintableLarge .node-name, .nodeWithPicPrintableLargeMatrix .node-name,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-name,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 8.8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableLarge .node-title, .nodePrintableLargeMatrix .node-title,
+	.nodePrintableLargeMatrixCollapsible .node-title,
+	.nodePrintableLargeMatrixWithLink .node-title,
+	.nodeWithPicPrintableLarge .node-title,
+	.nodeWithPicPrintableLargeMatrix .node-title,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-title,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableLarge .node-dept, .nodePrintableLarge .node-grade,
+	.nodePrintableLarge .node-functn, .nodePrintableLarge .node-business,
+	.nodePrintableLarge .node-location, .nodePrintableLarge .node-company,
+	.nodePrintableLarge .node-phone, .nodePrintableLarge .node-email,
+	.nodePrintableLarge .node-age, .nodePrintableLarge .node-doret,
+	.nodePrintableLargeMatrix .node-dept, .nodePrintableLargeMatrix .node-grade,
+	.nodePrintableLargeMatrix .node-functn, .nodePrintableLargeMatrix .node-business,
+	.nodePrintableLargeMatrix .node-location, .nodePrintableLargeMatrix .node-company,
+	.nodePrintableLargeMatrix .node-phone, .nodePrintableLargeMatrix .node-email,
+	.nodePrintableLargeMatrix .node-age, .nodePrintableLargeMatrix .node-doret,
+	.nodeWithPicPrintableLarge .node-dept, .nodeWithPicPrintableLarge .node-grade,
+	.nodeWithPicPrintableLarge .node-functn, .nodeWithPicPrintableLarge .node-business,
+	.nodeWithPicPrintableLarge .node-location, .nodeWithPicPrintableLarge .node-company,
+	.nodeWithPicPrintableLarge .node-phone, .nodeWithPicPrintableLarge .node-email,
+	.nodeWithPicPrintableLarge .node-age, .nodeWithPicPrintableLarge .node-doret,
+	.nodeWithPicPrintableLargeMatrix .node-dept,
+	.nodeWithPicPrintableLargeMatrix .node-grade,
+	.nodeWithPicPrintableLargeMatrix .node-functn,
+	.nodeWithPicPrintableLargeMatrix .node-business,
+	.nodeWithPicPrintableLargeMatrix .node-location,
+	.nodeWithPicPrintableLargeMatrix .node-company,
+	.nodeWithPicPrintableLargeMatrix .node-phone,
+	.nodeWithPicPrintableLargeMatrix .node-email,
+	.nodeWithPicPrintableLargeMatrix .node-age,
+	.nodeWithPicPrintableLargeMatrix .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.4pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableLargeMatrixCollapsible .node-dept,
+	.nodePrintableLargeMatrixCollapsible .node-grade,
+	.nodePrintableLargeMatrixCollapsible .node-functn,
+	.nodePrintableLargeMatrixCollapsible .node-business,
+	.nodePrintableLargeMatrixCollapsible .node-location,
+	.nodePrintableLargeMatrixCollapsible .node-company,
+	.nodePrintableLargeMatrixCollapsible .node-phone,
+	.nodePrintableLargeMatrixCollapsible .node-email,
+	.nodePrintableLargeMatrixCollapsible .node-age,
+	.nodePrintableLargeMatrixCollapsible .node-doret,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-dept,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-grade,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-functn,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-business,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-location,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-company,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-phone,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-email,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-age,
+	.nodeWithPicPrintableLargeMatrixCollapsible .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.4pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableLargeMatrixWithLink .node-title,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableLargeMatrixWithLink .node-dept,
+	.nodePrintableLargeMatrixWithLink .node-grade,
+	.nodePrintableLargeMatrixWithLink .node-functn,
+	.nodePrintableLargeMatrixWithLink .node-business,
+	.nodePrintableLargeMatrixWithLink .node-location,
+	.nodePrintableLargeMatrixWithLink .node-company,
+	.nodePrintableLargeMatrixWithLink .node-phone,
+	.nodePrintableLargeMatrixWithLink .node-email,
+	.nodePrintableLargeMatrixWithLink .node-age,
+	.nodePrintableLargeMatrixWithLink .node-doret,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-dept,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-grade,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-functn,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-business,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-location,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-company,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-phone,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-email,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-age,
+	.nodeWithPicPrintableLargeMatrixWithLink .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.4pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableLargeMatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -145%;
+	left: -77%;
+}
+
+.nodePrintableLargeSize2MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -120%;
+	left: -77%;
+}
+
+.nodePrintableLargeSize3MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -112%;
+	left: -77%;
+}
+
+.nodePrintableLargeSize4MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -102%;
+	left: -77%;
+}
+
+.nodePrintableLargeSize5MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -93%;
+	left: -77%;
+}
+
+.nodePrintableLargeSize6MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -82%;
+	left: -77%;
+}
+
+.nodePrintableLargeSize7MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -72%;
+	left: -77%;
+}
+
+.nodePrintableLargeSize8MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -62%;
+	left: -77%;
+}
+
+.nodePrintableLargeSize9MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -53%;
+	left: -77%;
+}
+
+.nodeWithPicPrintableLargeMatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -75%;
+	left: -78%;
+}
+
+.nodeWithPicPrintableLargeSize2MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -76%;
+	left: -78%;
+}
+
+.nodeWithPicPrintableLargeSize3MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -67%;
+	left: -78%;
+}
+
+.nodeWithPicPrintableLargeSize4MatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_longer.png");
+	z-index: -1;
+	bottom: -60%;
+	left: -78%;
+}
+
+.Treant>.nodePrintableLargeMatrix img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableLargeMatrixCollapsible img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableLargeMatrixWithLink img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.nodePrintableLargeVacant, .nodePrintableLargeVacantCollapsible,
+	.nodePrintableLargeVacantWithLink, .nodePrintableLargeSecVacantWithLink
+	{
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 9em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize2Vacant,
+	.nodePrintableLargeSize2VacantCollapsible,
+	.nodePrintableLargeSize2VacantWithLink,
+	.nodePrintableLargeSize2SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 12em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize3Vacant,
+	.nodePrintableLargeSize3VacantCollapsible,
+	.nodePrintableLargeSize3VacantWithLink,
+	.nodePrintableLargeSize3SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 15em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize4Vacant,
+	.nodePrintableLargeSize4VacantCollapsible,
+	.nodePrintableLargeSize4VacantWithLink,
+	.nodePrintableLargeSize4SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 17em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize5Vacant,
+	.nodePrintableLargeSize5VacantCollapsible,
+	.nodePrintableLargeSize5VacantWithLink,
+	.nodePrintableLargeSize5SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 19em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize6Vacant,
+	.nodePrintableLargeSize6VacantCollapsible,
+	.nodePrintableLargeSize6VacantWithLink,
+	.nodePrintableLargeSize6SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 21em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize7Vacant,
+	.nodePrintableLargeSize7VacantCollapsible,
+	.nodePrintableLargeSize7VacantWithLink,
+	.nodePrintableLargeSize7SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 24em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize8Vacant,
+	.nodePrintableLargeSize8VacantCollapsible,
+	.nodePrintableLargeSize8VacantWithLink,
+	.nodePrintableLargeSize8SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 28em;
+	width: 28em;
+}
+
+.nodePrintableLargeSize9Vacant,
+	.nodePrintableLargeSize9VacantCollapsible,
+	.nodePrintableLargeSize9VacantWithLink,
+	.nodePrintableLargeSize9SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 32em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeVacant,
+	.nodeWithPicPrintableLargeVacantCollapsible,
+	.nodeWithPicPrintableLargeVacantWithLink,
+	.nodeWithPicPrintableLargeSecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 20em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeSize2Vacant,
+	.nodeWithPicPrintableLargeSize2VacantCollapsible,
+	.nodeWithPicPrintableLargeSize2VacantWithLink,
+	.nodeWithPicPrintableLargeSize2SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 23em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeSize3Vacant,
+	.nodeWithPicPrintableLargeSize3VacantCollapsible,
+	.nodeWithPicPrintableLargeSize3VacantWithLink,
+	.nodeWithPicPrintableLargeSize3SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 26em;
+	width: 28em;
+}
+
+.nodeWithPicPrintableLargeSize4Vacant,
+	.nodeWithPicPrintableLargeSize4VacantCollapsible,
+	.nodeWithPicPrintableLargeSize4VacantWithLink,
+	.nodeWithPicPrintableLargeSize4SecVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 29em;
+	width: 28em;
+}
+
+.nodePrintableLargeVacant .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 8.8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableLargeVacantCollapsible .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 8.8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableLargeVacantWithLink .node-name {
+	color: #000000;
+	font-weight: bold;
+	font-size: 8.8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableLargeVacant .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8pt;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableLargeVacant .node-dept, .nodePrintableLargeVacant .node-grade,
+	.nodePrintableLargeVacant .node-functn, .nodePrintableLargeVacant .node-business,
+	.nodePrintableLargeVacant .node-location, .nodePrintableLargeVacant .node-company,
+	.nodePrintableLargeVacant .node-phone, .nodePrintableLargeVacant .node-email,
+	.nodePrintableLargeVacant .node-age, .nodePrintableLargeVacant .node-doret
+	{
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.4pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableLargeVacantCollapsible .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableLargeVacantCollapsible .node-dept,
+	.nodePrintableLargeVacantCollapsible .node-grade,
+	.nodePrintableLargeVacantCollapsible .node-functn,
+	.nodePrintableLargeVacantCollapsible .node-business,
+	.nodePrintableLargeVacantCollapsible .node-location,
+	.nodePrintableLargeVacantCollapsible .node-company,
+	.nodePrintableLargeVacantCollapsible .node-phone,
+	.nodePrintableLargeVacantCollapsible .node-email,
+	.nodePrintableLargeVacantCollapsible .node-age,
+	.nodePrintableLargeVacantCollapsible .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.4pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.nodePrintableLargeVacantWithLink .node-title {
+	color: #000000;
+	font-weight: normal;
+	font-size: 8pt;
+	text-align: center;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableLargeVacantWithLink .node-dept,
+	.nodePrintableLargeVacantWithLink .node-grade,
+	.nodePrintableLargeVacantWithLink .node-functn,
+	.nodePrintableLargeVacantWithLink .node-business,
+	.nodePrintableLargeVacantWithLink .node-location,
+	.nodePrintableLargeVacantWithLink .node-company,
+	.nodePrintableLargeVacantWithLink .node-phone,
+	.nodePrintableLargeVacantWithLink .node-email,
+	.nodePrintableLargeVacantWithLink .node-age,
+	.nodePrintableLargeVacantWithLink .node-doret {
+	color: #000000;
+	font-weight: normal;
+	font-size: 7.4pt;
+	margin-top: 0.2em;
+	text-align: left;
+	display: table;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+	word-wrap: break-word;
+}
+
+.Treant>.nodePrintableLargeVacant img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableLargeVacantCollapsible img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableLargeVacantWithLink img {
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.nodePrintableLargeSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize2Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize3Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize4Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize5Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize6Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize7Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize8Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize9Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodeWithPicPrintableLargeSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodeWithPicPrintableLargeSize2Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodeWithPicPrintableLargeSize3Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodeWithPicPrintableLargeSize4Sec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -5%;
+}
+
+.nodePrintableLargeSize2Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -5%;
+}
+
+.nodePrintableLargeSize3Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize4Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize5Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize6Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize7Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize8Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize9Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodeWithPicPrintableLargeSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodeWithPicPrintableLargeSize2Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodeWithPicPrintableLargeSize3Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodeWithPicPrintableLargeSize4Sec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeVacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize2VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize3VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize4VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize5VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize6VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize7VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize8VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeSize9VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodeWithPicPrintableLargeVacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodeWithPicPrintableLargeSize2VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodeWithPicPrintableLargeSize3VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodeWithPicPrintableLargeSize4VacantSec1WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	right: -5%;
+}
+
+.nodePrintableLargeVacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize2VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize3VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize4VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize5VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize6VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize7VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize8VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodePrintableLargeSize9VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodeWithPicPrintableLargeVacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodeWithPicPrintableLargeSize2VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodeWithPicPrintableLargeSize3VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+.nodeWithPicPrintableLargeSize4VacantSec2WithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+	bottom: 42%;
+	left: -7%;
+}
+
+/* Printable CSS for nodes end */
+.Treant>a:link {
+	color: #004782;
+}
+
+.Treant>a:visited {
+	color: #ffffff;
+}
+
+.Treant>a:link:hover {
+	color: #636363;
+}

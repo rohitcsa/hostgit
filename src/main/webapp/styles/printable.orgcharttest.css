@@ -1,0 +1,1071 @@
+#legendContent {
+	margin-top: 0.4em;
+	margin-left: 1em;
+	display: inline-block;
+}
+
+#legendContent1 {
+	display: inline-block;
+	width: 9em;
+}
+
+#legendContent2 {
+	display: inline-block;
+	width: 3em;
+}
+
+#legendContent3 {
+	display: inline-block;
+	width: 10em;
+	margin-right: 2.2em;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+	fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset {
+	border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+caption, th {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+}
+
+.Treant>.node {
+	
+}
+
+.Treant>p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+		"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top: 0.5em;
+	text-align: left;
+}
+
+.node-title {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-bottom: 3.9em;
+	color: #000000;
+	font-size: 1.2em;
+	white-space: initial;
+	word-wrap: break-word;
+	text-align: left;
+	display: block;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	margin-top: 0.4em;
+}
+
+.node-dept {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+	/*
+	position: absolute;
+	left: 5%;
+	bottom: 0;
+	*/
+}
+
+.node-dept:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Dept: ";
+}
+
+.node-functn {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-functn:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Function: ";
+}
+
+.node-business {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-business:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Business: ";
+}
+
+.node-location {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-location:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Location: ";
+}
+
+.node-company {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-company:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Company: ";
+}
+
+.node-phone {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 0.4em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-phone:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Phone: ";
+}
+
+.node-email {
+	font-size: 1.1em;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 1em;
+	margin-left: 0.5em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 0.5em;
+}
+
+.node-email:before {
+	font-size: 1.1em;
+	color: #000000;
+	font-weight: bold;
+	content: "Email: ";
+}
+
+/* CSS for nodes */
+.nodeCollapsible {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #edf7ff;
+	border-bottom: 0.6em solid #4f789a;
+	min-width: 27em;
+	height: auto;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(150, 174, 191), 0 1.2em 4em 0
+		rgb(204, 232, 255);
+}
+
+.Treant>.node img {
+	/*border: 0.1em solid #2b5b82;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeCollapsible img {
+	/*border: 0.1em solid #2b5b82;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.nodeMatrix, .nodeMatrixCollapsible, .nodeMatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #fff6dc;
+	border-bottom: 0.6em solid #a2814f;
+	min-width: 27em;
+	height: auto;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(185, 181, 145), 0 1.2em 4em 0
+		rgb(255, 233, 166);
+}
+
+.nodeMatrixWithLink:before {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/blank.jpg");
+	z-index: -1;
+	top: -80%;
+	left: -27%;
+}
+
+.nodeMatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -2;
+	bottom: -114%;
+	left: -63%;
+}
+
+.Treant>.nodeMatrix img {
+	/*border: 0.1em solid ##9c630d;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeMatrixCollapsible img {
+	/*border: 0.1em solid ##9c630d;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeMatrixWithLink img {
+	/*border: 0.1em solid ##9c630d;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.nodeVacant, .nodeVacantCollapsible, .nodeVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.4em;
+	background-color: #e8f9e8;
+	border-bottom: 0.6em solid #508050;
+	min-width: 27em;
+	height: auto;
+	width: 21em;
+	box-shadow: 0 0 2em 0 rgb(136, 189, 131), 0 1.2em 4em 0
+		rgb(193, 202, 192);
+}
+
+.nodeVacantWithLink {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -114%;
+	left: -63%;
+}
+
+.Treant>.nodeVacant img {
+	/*border: 0.2em solid #1a671a;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeVacantCollapsible img {
+	/*border: 0.2em solid #1a671a;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+.Treant>.nodeVacantWithLink img {
+	/*border: 0.2em solid #1a671a;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+/* ----------- Printable CSS for nodes -------------------- */
+.nodePrintable, .nodePrintableCollapsible {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: 12em;
+	width: 28em;
+}
+
+.nodePrintable .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2.2em;
+	margin-top: 0.5em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableCollapsible .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2.2em;
+	margin-top: 0.5em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintable .node-title, .nodePrintable .node-dept, .nodePrintable .node-functn,
+	.nodePrintable .node-business, .nodePrintable .node-location,
+	.nodePrintable .node-company, .nodePrintable .node-phone,
+	.nodePrintable .node-email {
+	color: #000000; /* #0c06f1 */
+	font-weight: normal;
+	font-size: 1.9em;
+	margin-top: 0.2em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableCollapsible .node-title, .nodePrintableCollapsible .node-dept,
+	.nodePrintableCollapsible .node-functn, .nodePrintableCollapsible .node-business,
+	.nodePrintableCollapsible .node-location, .nodePrintableCollapsible .node-company,
+	.nodePrintableCollapsible .node-phone, .nodePrintableCollapsible .node-email
+	{
+	color: #000000; /* #0c06f1 */
+	font-weight: normal;
+	font-size: 1.9em;
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.Treant>.nodePrintable img {
+	/*border: 0.1em solid #2b5b82;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableCollapsible img {
+	/*border: 0.1em solid #2b5b82;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+
+.nodePrintableSecWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+    height: 12em;
+    width: 28em;
+}
+/*
+.nodePrintableSecWithLink:before {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/blank.jpg");
+	z-index: 0;
+    top: -62%;
+    left: -62%;
+}
+*/
+.nodePrintableSecWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	z-index: -1;
+    bottom: 42%;
+    right: -63%;
+}
+
+.nodePrintableMatrix, .nodePrintableMatrixCollapsible,
+	.nodePrintableMatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: 12em;
+	width: 28em;
+}
+
+.nodePrintable .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2.2em;
+	margin-top: 0.5em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableMatrix .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2.2em;
+	margin-top: 0.5em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableMatrixCollapsible .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2.2em;
+	margin-top: 0.5em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableMatrixWithLink .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2.2em;
+	margin-top: 0.5em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableMatrix .node-title, .nodePrintableMatrix .node-dept,
+	.nodePrintableMatrix .node-functn, .nodePrintableMatrix .node-business,
+	.nodePrintableMatrix .node-location, .nodePrintableMatrix .node-company,
+	.nodePrintableMatrix .node-phone, .nodePrintableMatrix .node-email {
+	color: #000000; /* #0c06f1 */
+	font-weight: normal;
+	font-size: 1.9em;
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableMatrixCollapsible .node-title,
+	.nodePrintableMatrixCollapsible .node-dept,
+	.nodePrintableMatrixCollapsible .node-functn,
+	.nodePrintableMatrixCollapsible .node-business,
+	.nodePrintableMatrixCollapsible .node-location,
+	.nodePrintableMatrixCollapsible .node-company,
+	.nodePrintableMatrixCollapsible .node-phone,
+	.nodePrintableMatrixCollapsible .node-email {
+	color: #000000; /* #0c06f1 */
+	font-weight: normal;
+	font-size: 1.9em;
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableMatrixWithLink .node-title, .nodePrintableMatrixWithLink .node-dept,
+	.nodePrintableMatrixWithLink .node-functn, .nodePrintableMatrixWithLink .node-business,
+	.nodePrintableMatrixWithLink .node-location,
+	.nodePrintableMatrixWithLink .node-company,
+	.nodePrintableMatrixWithLink .node-phone, .nodePrintableMatrixWithLink .node-email
+	{
+	color: #000000; /* #0c06f1 */
+	font-weight: normal;
+	font-size: 1.9em;
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+/*
+.nodeMatrixWithLink:before {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/white_panel.png");
+	top: -152%;
+	left: -170%;
+}
+
+.nodePrintableMatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -114%;
+	left: -63%;
+}
+*/
+.Treant>.nodePrintableMatrix img {
+	/*border: 0.1em solid ##9c630d;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableMatrixCollapsible img {
+	/*border: 0.1em solid ##9c630d;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableMatrixWithLink img {
+	/*border: 0.1em solid ##9c630d;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.nodePrintableVacant, .nodePrintableVacantCollapsible,
+	.nodePrintableVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.3em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: 12em;
+	width: 28em;
+}
+
+.nodePrintableVacant .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2.2em;
+	margin-top: 0.5em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableVacantCollapsible .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2.2em;
+	margin-top: 0.5em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableVacantWithLink .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2.2em;
+	margin-top: 0.5em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.nodePrintableVacant .node-title, .nodePrintableVacant .node-dept,
+	.nodePrintableVacant .node-functn, .nodePrintableVacant .node-business,
+	.nodePrintableVacant .node-location, .nodePrintableVacant .node-company,
+	.nodePrintableVacant .node-phone, .nodePrintableVacant .node-email {
+	color: #000000; /* #0c06f1 */
+	font-weight: normal;
+	font-size: 1.9em;
+	margin-top: 0.2em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableVacantCollapsible .node-title,
+	.nodePrintableVacantCollapsible .node-dept,
+	.nodePrintableVacantCollapsible .node-functn,
+	.nodePrintableVacantCollapsible .node-business,
+	.nodePrintableVacantCollapsible .node-location,
+	.nodePrintableVacantCollapsible .node-company,
+	.nodePrintableVacantCollapsible .node-phone,
+	.nodePrintableVacantCollapsible .node-email {
+	color: #000000; /* #0c06f1 */
+	font-weight: normal;
+	font-size: 1.9em;
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.nodePrintableVacantWithLink .node-title, .nodePrintableVacantWithLink .node-dept,
+	.nodePrintableVacantWithLink .node-functn, .nodePrintableVacantWithLink .node-business,
+	.nodePrintableVacantWithLink .node-location,
+	.nodePrintableVacantWithLink .node-company,
+	.nodePrintableVacantWithLink .node-phone, .nodePrintableVacantWithLink .node-email
+	{
+	color: #000000; /* #0c06f1 */
+	font-weight: normal;
+	font-size: 1.9em;
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	text-align: center;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: initial;
+	max-width: 16em;
+}
+
+.Treant>.nodePrintableVacant img {
+	/*border: 0.2em solid #1a671a;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableVacantCollapsible img {
+	/*border: 0.2em solid #1a671a;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableVacantWithLink img {
+	/*border: 0.2em solid #1a671a;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+/* Printable Large */
+.nodePrintableLarge, .nodePrintableLargeCollapsible {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #edf7ff;
+	border: 1px solid #d5e1ea;
+	height: auto;
+	width: auto;
+}
+
+.nodePrintableLarge .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2em;
+	margin-top: 0.5em;
+	text-align: left;
+}
+
+.nodePrintableLargeCollapsible .node-name {
+	color: #000000; /* #0c06f1 */
+	font-weight: bold;
+	font-size: 2em;
+	margin-top: 0.5em;
+	text-align: left;
+}
+
+.Treant>.nodePrintableLarge img {
+	/*border: 0.1em solid #2b5b82;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableLargeCollapsible img {
+	/*border: 0.1em solid #2b5b82;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.nodePrintableLargeMatrix, .nodePrintableLargeMatrixCollapsible,
+	.nodePrintableLargeMatrixWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #fff6dc;
+	border: 1px solid #efe4c5;
+	height: auto;
+	width: auto;
+}
+
+/*
+.nodePrintableLargeMatrixWithLink:before {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/white_panel.png");
+	top: -152%;
+	left: -170%;
+}
+
+.nodePrintableLargeMatrixWithLink:after {
+	position: absolute;
+	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	z-index: -1;
+	bottom: -114%;
+	left: -63%;
+}
+*/
+.Treant>.nodePrintableLargeMatrix img {
+	/*border: 0.1em solid ##9c630d;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableLargeMatrixCollapsible img {
+	/*border: 0.1em solid ##9c630d;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableLargeMatrixWithLink img {
+	/*border: 0.1em solid ##9c630d;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.nodePrintableLargeVacant, .nodePrintableLargeVacantCollapsible,
+	.nodePrintableLargeVacantWithLink {
+	padding: 0.2em;
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.6em;
+	background-color: #e8f9e8;
+	border: 1px solid #cce0cc;
+	height: auto;
+	width: auto;
+}
+
+.Treant>.nodePrintableLargeVacant img {
+	/*border: 0.2em solid #1a671a;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableLargeVacantCollapsible img {
+	/*border: 0.2em solid #1a671a;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+.Treant>.nodePrintableLargeVacantWithLink img {
+	/*border: 0.2em solid #1a671a;*/
+	/*-webkit-border-radius: 50%;*/
+	/*-moz-border-radius: 50%;*/
+	/*border-radius: 50%;*/
+	max-width: 10em;
+	height: 9em;
+	margin-top: 1em;
+	float: left;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	display: none;
+}
+
+/* Printable CSS for nodes end */
+.Treant>a:link {
+	color: #004782;
+}
+
+.Treant>a:visited {
+	color: #ffffff;
+}
+
+.Treant>a:link:hover {
+	color: #636363;
+}

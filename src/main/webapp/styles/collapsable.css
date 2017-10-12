@@ -1,0 +1,1730 @@
+/* Filled */
+.Treant .nodeCollapsible .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsible.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize2 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize2.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize3 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize3.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize4 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize4.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize5 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize5.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize6 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize6.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize7 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize7.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize8 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize8.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize9 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeCollapsibleSize9.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsible .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsible.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize2 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize2.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize3 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize3.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize4 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize4.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize5 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize5.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize6 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize6.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize7 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize7.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize8 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize8.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize9 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicCollapsibleSize9.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_node_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+/*	Matrix	*/
+.Treant .nodeMatrixCollapsible .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsible.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize2 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize2.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize3 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize3.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize4 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize4.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize5 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize5.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize6 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize6.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize7 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize7.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize8 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize8.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize9 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeMatrixCollapsibleSize9.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsible .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsible.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize2 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize2.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize3 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize3.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize4 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize4.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize5 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize5.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize6 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize6.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize7 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize7.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize8 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize8.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize9 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicMatrixCollapsibleSize9.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeMatrix_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+/* Vacant */
+.Treant .nodeVacantCollapsible .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsible.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize2 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize2.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize3 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize3.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize4 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize4.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize5 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize5.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize6 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize6.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize7 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize7.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize8 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize8.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize9 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeVacantCollapsibleSize9.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsible .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsible.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize2 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize2.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize3 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize3.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize4 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize4.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize5 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize5.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize6 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize6.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize7 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize7.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize8 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize8.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize9 .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_collapse.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
+
+.Treant .nodeNoPicVacantCollapsibleSize9.collapsed .collapse-switch {
+	background-image:
+		url("/JubilantOrgChartProject/images/bg/tab_nodeVacant_expand.png");
+	background-size: 7.1em 1.7em;
+	width: 7.1em;
+	height: 1.7em;
+	cursor: pointer;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1.8em;
+}
