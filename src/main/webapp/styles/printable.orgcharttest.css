@@ -290,7 +290,7 @@ abbr, acronym {
 
 .nodeMatrixWithLink:before {
 	position: absolute;
-	content: url("/JubilantOrgChartProject/images/bg/blank.jpg");
+	content: url("/orgchart/images/bg/blank.jpg");
 	z-index: -1;
 	top: -80%;
 	left: -27%;
@@ -298,7 +298,7 @@ abbr, acronym {
 
 .nodeMatrixWithLink:after {
 	position: absolute;
-	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	content: url("/orgchart/images/bg/link.png");
 	z-index: -2;
 	bottom: -114%;
 	left: -63%;
@@ -364,7 +364,7 @@ abbr, acronym {
 
 .nodeVacantWithLink {
 	position: absolute;
-	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	content: url("/orgchart/images/bg/link.png");
 	z-index: -1;
 	bottom: -114%;
 	left: -63%;
@@ -527,7 +527,7 @@ abbr, acronym {
 /*
 .nodePrintableSecWithLink:before {
 	position: absolute;
-	content: url("/JubilantOrgChartProject/images/bg/blank.jpg");
+	content: url("/orgchart/images/bg/blank.jpg");
 	z-index: 0;
     top: -62%;
     left: -62%;
@@ -535,7 +535,7 @@ abbr, acronym {
 */
 .nodePrintableSecWithLink:after {
 	position: absolute;
-	content: url("/JubilantOrgChartProject/images/bg/link_solid.png");
+	content: url("/orgchart/images/bg/link_solid.png");
 	z-index: -1;
     bottom: 42%;
     right: -63%;
@@ -656,14 +656,14 @@ abbr, acronym {
 /*
 .nodeMatrixWithLink:before {
 	position: absolute;
-	content: url("/JubilantOrgChartProject/images/bg/white_panel.png");
+	content: url("/orgchart/images/bg/white_panel.png");
 	top: -152%;
 	left: -170%;
 }
 
 .nodePrintableMatrixWithLink:after {
 	position: absolute;
-	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	content: url("/orgchart/images/bg/link.png");
 	z-index: -1;
 	bottom: -114%;
 	left: -63%;
@@ -937,14 +937,14 @@ abbr, acronym {
 /*
 .nodePrintableLargeMatrixWithLink:before {
 	position: absolute;
-	content: url("/JubilantOrgChartProject/images/bg/white_panel.png");
+	content: url("/orgchart/images/bg/white_panel.png");
 	top: -152%;
 	left: -170%;
 }
 
 .nodePrintableLargeMatrixWithLink:after {
 	position: absolute;
-	content: url("/JubilantOrgChartProject/images/bg/link.png");
+	content: url("/orgchart/images/bg/link.png");
 	z-index: -1;
 	bottom: -114%;
 	left: -63%;
