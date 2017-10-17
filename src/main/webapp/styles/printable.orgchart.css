@@ -594,7 +594,7 @@ abbr, acronym {
 
 .nodeSec1WithLink:after {
 	position: absolute;
-	content: url("/orgchart/images/bg/link_solid.png");
+	content: url("/../../orgchart/images/bg/link_solid.png");
 	z-index: -1;
 	bottom: 42%;
 	right: -14%;
